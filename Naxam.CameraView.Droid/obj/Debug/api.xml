@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.google.android.cameraview">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AspectRatio" static="false" visibility="public">
+<implements name="android.os.Parcelable" name-generic-aware="android.os.Parcelable">
+</implements>
+<implements name="java.lang.Comparable" name-generic-aware="java.lang.Comparable&lt;com.google.android.cameraview.AspectRatio&gt;">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="compareTo" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.google.android.cameraview.AspectRatio">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="describeContents" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getX" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getY" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="inverse" native="false" return="com.google.android.cameraview.AspectRatio" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="matches" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.google.android.cameraview.Size">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="of" native="false" return="com.google.android.cameraview.AspectRatio" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="parse" native="false" return="com.google.android.cameraview.AspectRatio" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toFloat" native="false" return="float" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="writeToParcel" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.os.Parcel">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="CREATOR" static="true" transient="false" type="android.os.Parcelable.Creator" type-generic-aware="android.os.Parcelable.Creator&lt;com.google.android.cameraview.AspectRatio&gt;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AspectRatio.1" static="true" visibility="">
+<implements name="android.os.Parcelable.Creator" name-generic-aware="android.os.Parcelable.Creator&lt;com.google.android.cameraview.AspectRatio&gt;">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="createFromParcel" native="false" return="com.google.android.cameraview.AspectRatio" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.os.Parcel">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="newArray" native="false" return="com.google.android.cameraview.AspectRatio[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.google.android.cameraview.BuildConfig" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.google.android.cameraview&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="-1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.google.android.cameraview.CameraViewImpl" extends-generic-aware="com.google.android.cameraview.CameraViewImpl" final="false" name="Camera1" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Camera1.1" static="false" visibility="">
+<implements name="com.google.android.cameraview.PreviewImpl.Callback" name-generic-aware="com.google.android.cameraview.PreviewImpl.Callback">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onSurfaceChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Camera1.2" static="false" visibility="">
+<implements name="android.hardware.Camera.AutoFocusCallback" name-generic-aware="android.hardware.Camera.AutoFocusCallback">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAutoFocus" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+<parameter name="p1" type="android.hardware.Camera">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Camera1.3" static="false" visibility="">
+<implements name="android.hardware.Camera.PictureCallback" name-generic-aware="android.hardware.Camera.PictureCallback">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onPictureTaken" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+<parameter name="p1" type="android.hardware.Camera">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.google.android.cameraview.CameraViewImpl" extends-generic-aware="com.google.android.cameraview.CameraViewImpl" final="false" name="Camera2" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="android.hardware.camera2.CameraDevice.StateCallback" extends-generic-aware="android.hardware.camera2.CameraDevice.StateCallback" final="false" name="Camera2.1" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="onDisconnected" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.hardware.camera2.CameraDevice">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onError" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.hardware.camera2.CameraDevice">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onOpened" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.hardware.camera2.CameraDevice">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.hardware.camera2.CameraCaptureSession.StateCallback" extends-generic-aware="android.hardware.camera2.CameraCaptureSession.StateCallback" final="false" name="Camera2.2" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="onConfigureFailed" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.hardware.camera2.CameraCaptureSession">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onConfigured" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.hardware.camera2.CameraCaptureSession">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.google.android.cameraview.Camera2.PictureCaptureCallback" extends-generic-aware="com.google.android.cameraview.Camera2.PictureCaptureCallback" final="false" name="Camera2.3" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="onPrecaptureRequired" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onReady" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Camera2.4" static="false" visibility="">
+<implements name="android.media.ImageReader.OnImageAvailableListener" name-generic-aware="android.media.ImageReader.OnImageAvailableListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onImageAvailable" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.media.ImageReader">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Camera2.5" static="false" visibility="">
+<implements name="com.google.android.cameraview.PreviewImpl.Callback" name-generic-aware="com.google.android.cameraview.PreviewImpl.Callback">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onSurfaceChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.hardware.camera2.CameraCaptureSession.CaptureCallback" extends-generic-aware="android.hardware.camera2.CameraCaptureSession.CaptureCallback" final="false" name="Camera2.6" static="false" visibility=""/>
+<class abstract="true" deprecated="not deprecated" extends="android.hardware.camera2.CameraCaptureSession.CaptureCallback" extends-generic-aware="android.hardware.camera2.CameraCaptureSession.CaptureCallback" final="false" name="Camera2.PictureCaptureCallback" static="true" visibility="">
+<method abstract="true" deprecated="not deprecated" final="false" name="onPrecaptureRequired" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onReady" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.google.android.cameraview.Camera2" extends-generic-aware="com.google.android.cameraview.Camera2" final="false" name="Camera2Api23" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.FrameLayout" extends-generic-aware="android.widget.FrameLayout" final="false" name="CameraView" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="CameraView" static="false" type="com.google.android.cameraview.CameraView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="CameraView" static="false" type="com.google.android.cameraview.CameraView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="CameraView" static="false" type="com.google.android.cameraview.CameraView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addCallback" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.google.android.cameraview.CameraView.Callback">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAdjustViewBounds" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAspectRatio" native="false" return="com.google.android.cameraview.AspectRatio" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAutoFocus" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFacing" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFlash" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSupportedAspectRatios" native="false" return="java.util.Set&lt;com.google.android.cameraview.AspectRatio&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isCameraOpened" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removeCallback" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.google.android.cameraview.CameraView.Callback">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAdjustViewBounds" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAspectRatio" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.google.android.cameraview.AspectRatio">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAutoFocus" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setFacing" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setFlash" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="start" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="stop" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="takePicture" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="FACING_BACK" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FACING_FRONT" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLASH_AUTO" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLASH_OFF" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLASH_ON" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLASH_RED_EYE" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLASH_TORCH" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.google.android.cameraview.DisplayOrientationDetector" extends-generic-aware="com.google.android.cameraview.DisplayOrientationDetector" final="false" name="CameraView.1" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="onDisplayOrientationChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CameraView.Callback" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="CameraView.Callback" static="false" type="com.google.android.cameraview.CameraView.Callback" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="onCameraClosed" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.google.android.cameraview.CameraView">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onCameraOpened" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.google.android.cameraview.CameraView">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onPictureTaken" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.google.android.cameraview.CameraView">
+</parameter>
+<parameter name="p1" type="byte[]">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CameraView.CallbackBridge" static="false" visibility="">
+<implements name="com.google.android.cameraview.CameraViewImpl.Callback" name-generic-aware="com.google.android.cameraview.CameraViewImpl.Callback">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.google.android.cameraview.CameraView.Callback">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onCameraClosed" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onCameraOpened" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onPictureTaken" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="remove" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.google.android.cameraview.CameraView.Callback">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="reserveRequestLayoutOnOpen" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="CameraView.Facing" static="true" visibility="public">
+<implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation">
+</implements>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="CameraView.Flash" static="true" visibility="public">
+<implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation">
+</implements>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="android.view.View.BaseSavedState" extends-generic-aware="android.view.View.BaseSavedState" final="false" name="CameraView.SavedState" static="true" visibility="protected">
+<constructor deprecated="not deprecated" final="false" name="CameraView.SavedState" static="false" type="com.google.android.cameraview.CameraView.SavedState" visibility="public">
+<parameter name="p0" type="android.os.Parcel">
+</parameter>
+<parameter name="p1" type="java.lang.ClassLoader">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="CameraView.SavedState" static="false" type="com.google.android.cameraview.CameraView.SavedState" visibility="public">
+<parameter name="p0" type="android.os.Parcelable">
+</parameter>
+</constructor>
+<field deprecated="not deprecated" final="true" name="CREATOR" static="true" transient="false" type="android.os.Parcelable.Creator" type-generic-aware="android.os.Parcelable.Creator&lt;com.google.android.cameraview.CameraView.SavedState&gt;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CameraView.SavedState.1" static="true" visibility="">
+<implements name="android.support.v4.os.ParcelableCompatCreatorCallbacks" name-generic-aware="android.support.v4.os.ParcelableCompatCreatorCallbacks&lt;com.google.android.cameraview.CameraView.SavedState&gt;">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="createFromParcel" native="false" return="com.google.android.cameraview.CameraView.SavedState" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.os.Parcel">
+</parameter>
+<parameter name="p1" type="java.lang.ClassLoader">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="newArray" native="false" return="com.google.android.cameraview.CameraView.SavedState[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CameraViewImpl" static="false" visibility="">
+<field deprecated="not deprecated" final="true" name="mCallback" static="false" transient="false" type="com.google.android.cameraview.CameraViewImpl.Callback" type-generic-aware="com.google.android.cameraview.CameraViewImpl.Callback" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="mPreview" static="false" transient="false" type="com.google.android.cameraview.PreviewImpl" type-generic-aware="com.google.android.cameraview.PreviewImpl" visibility="protected" volatile="false">
+</field>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="CameraViewImpl.Callback" static="true" visibility="">
+<method abstract="true" deprecated="not deprecated" final="false" name="onCameraClosed" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onCameraOpened" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onPictureTaken" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="Constants" static="false" visibility="">
+<field deprecated="not deprecated" final="true" name="DEFAULT_ASPECT_RATIO" static="true" transient="false" type="com.google.android.cameraview.AspectRatio" type-generic-aware="com.google.android.cameraview.AspectRatio" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FACING_BACK" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FACING_FRONT" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLASH_AUTO" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLASH_OFF" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLASH_ON" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLASH_RED_EYE" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLASH_TORCH" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="LANDSCAPE_270" static="true" transient="false" type="int" type-generic-aware="int" value="270" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="LANDSCAPE_90" static="true" transient="false" type="int" type-generic-aware="int" value="90" visibility="public" volatile="false">
+</field>
+</interface>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DisplayOrientationDetector" static="false" visibility="">
+<constructor deprecated="not deprecated" final="false" name="DisplayOrientationDetector" static="false" type="com.google.android.cameraview.DisplayOrientationDetector" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="disable" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="enable" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.Display">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLastKnownDisplayOrientation" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onDisplayOrientationChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.view.OrientationEventListener" extends-generic-aware="android.view.OrientationEventListener" final="false" name="DisplayOrientationDetector.1" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="onOrientationChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PreviewImpl" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="dispatchSurfaceChanged" native="false" return="void" static="false" synchronized="false" visibility="protected">
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="PreviewImpl.Callback" static="true" visibility="">
+<method abstract="true" deprecated="not deprecated" final="false" name="onSurfaceChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Size" static="false" visibility="public">
+<implements name="java.lang.Comparable" name-generic-aware="java.lang.Comparable&lt;com.google.android.cameraview.Size&gt;">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="Size" static="false" type="com.google.android.cameraview.Size" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="compareTo" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.google.android.cameraview.Size">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getHeight" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getWidth" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SizeMap" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.google.android.cameraview.Size">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="remove" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.google.android.cameraview.AspectRatio">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.google.android.cameraview.PreviewImpl" extends-generic-aware="com.google.android.cameraview.PreviewImpl" final="false" name="SurfaceViewPreview" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurfaceViewPreview.1" static="false" visibility="">
+<implements name="android.view.SurfaceHolder.Callback" name-generic-aware="android.view.SurfaceHolder.Callback">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="surfaceChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.SurfaceHolder">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="surfaceCreated" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.SurfaceHolder">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="surfaceDestroyed" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.SurfaceHolder">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.google.android.cameraview.PreviewImpl" extends-generic-aware="com.google.android.cameraview.PreviewImpl" final="false" name="TextureViewPreview" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TextureViewPreview.1" static="false" visibility="">
+<implements name="android.view.TextureView.SurfaceTextureListener" name-generic-aware="android.view.TextureView.SurfaceTextureListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onSurfaceTextureAvailable" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.SurfaceTexture">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onSurfaceTextureDestroyed" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.SurfaceTexture">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onSurfaceTextureSizeChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.SurfaceTexture">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onSurfaceTextureUpdated" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.SurfaceTexture">
+</parameter>
+</method>
+</class>
+</package>
+</api>
