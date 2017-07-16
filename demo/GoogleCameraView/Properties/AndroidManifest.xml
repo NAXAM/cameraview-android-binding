@@ -2,5 +2,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="GoogleCameraView.GoogleCameraView" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="16" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-	<application android:label="GoogleCameraView"></application>
+	<application android:label="GoogleCameraView" android:icon="@mipmap/ic_launcher" android:theme="@style/Theme.Demo"></application>
 </manifest>

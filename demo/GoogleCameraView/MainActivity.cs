@@ -23,7 +23,7 @@ using Android;
 
 namespace GoogleCameraView
 {
-    [Activity(Label = "GoogleCameraView", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/Theme.Demo")]
+    [Activity(Label = "GoogleCameraView", MainLauncher = true, Icon = "@mipmap/ic_launcher", Theme = "@style/Theme.Demo")]
     public class MainActivity : AppCompatActivity, IOnRequestPermissionsResultCallback, Listener
     {
 
