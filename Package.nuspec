@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Naxam.CameraView.Droid</id>
-    <version>0.0.1-pre1</version>
+    <version>0.0.3.1</version>
     <authors>NAXAM</authors>
     <owners>NAXAM COMPANY LIMITED</owners>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
@@ -13,8 +13,8 @@
     <summary>NAXAM - CameraView for Android</summary>
     <description>Xamarin Androind Binding Library for Goolge::CameraView</description>
     <releaseNotes>Google CameraView commit#3eaeac09a7f084463a94850c763d21fdb4c18fce</releaseNotes>
-    <copyright>Copyright 2017 NAXAM</copyright>
-    <tags>Xamarin.Android cameraview, google-cameraview</tags>
+    <copyright>Copyright © NAXAM 2017-present</copyright>
+    <tags>Xamarin.Android, cameraview, google-cameraview</tags>
     <dependencies>
       <dependency id="Xamarin.Android.Support.v4" version="25.3.1" />
       <dependency id="Xamarin.Android.Support.Annotations" version="25.3.1" />
